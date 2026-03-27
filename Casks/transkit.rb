@@ -1,13 +1,13 @@
 cask "transkit" do
-  version "3.2.0"
+  version "3.2.1"
 
   on_arm do
-    sha256 "faf454e757f3acd84c2c303796f122c945590c8706eded286efb2aac98dfc6f8"
+    sha256 "4994339a53b5973269853d336ce6f568b3ab152724ea4027b7bac0aa0b971d6b"
 
     url "https://github.com/transkit-app/transkit-desktop/releases/download/#{version}/TransKit_#{version}_aarch64.dmg"
   end
   on_intel do
-    sha256 "137168ec1c715419d4d584cffdc305c72a35d7f5abe0a5fc87d33c140577f96a"
+    sha256 "fee04f506ab8a400bce878580e0ba373172c91816c65c7929816ee25414789e6"
 
     url "https://github.com/transkit-app/transkit-desktop/releases/download/#{version}/TransKit_#{version}_x64.dmg"
   end
